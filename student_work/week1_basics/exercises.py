@@ -1,85 +1,44 @@
 #!/usr/bin/python3
 
-"""
-Week 1 Exercises: Basics
+# Week 1 exercises: Basics
+# Topics: I/O, variables, types, casting, arithmetic, formatting
+#
+# Fill in the code for the functions below. main() is already set up
+# to call the functions with a few different inputs,
+# printing 'OK' when each function is correct.
 
-Complete the exercises below. Each function should follow the specifications
-provided in the docstrings.
 
-Topics: I/O, Variables, Types, Casting, Arithmetic, Formatting
-"""
-
+# A. greet_user
+# Return a greeting message for the given name.
+# Example: greet_user("Alice") -> "Hello, Alice!"
 def greet_user(name):
-  """
-  Return a greeting message for the given name.
-
-  Args:
-      name (str): The user's name
-
-  Returns:
-      str: A greeting message
-
-  Example:
-      >>> greet_user("Alice")
-      'Hello, Alice!'
-  """
   # +++your code here+++
   return
 
 
+# B. calculate_age
+# Calculate age from birth year (assuming current year is 2026).
+# Example: calculate_age(2010) -> 16
 def calculate_age(birth_year):
-  """
-  Calculate age from birth year (assuming current year is 2026).
-
-  Args:
-      birth_year (int): Year of birth
-
-  Returns:
-      int: Calculated age
-
-  Example:
-      >>> calculate_age(2010)
-      16
-  """
   # +++your code here+++
   return
 
 
+# C. celsius_to_fahrenheit
+# Convert temperature from Celsius to Fahrenheit.
+# Formula: F = C * 9/5 + 32
+# Examples:
+#   celsius_to_fahrenheit(0) -> 32.0
+#   celsius_to_fahrenheit(100) -> 212.0
 def celsius_to_fahrenheit(celsius):
-  """
-  Convert temperature from Celsius to Fahrenheit.
-  Formula: F = C * 9/5 + 32
-
-  Args:
-      celsius (float): Temperature in Celsius
-
-  Returns:
-      float: Temperature in Fahrenheit
-
-  Example:
-      >>> celsius_to_fahrenheit(0)
-      32.0
-      >>> celsius_to_fahrenheit(100)
-      212.0
-  """
   # +++your code here+++
   return
 
 
+# D. format_currency
+# Format a number as currency (GBP) with 2 decimal places.
+# Example: format_currency(123.456) -> "£123.46"
 def format_currency(amount):
-  """
-  Format a number as currency (GBP) with 2 decimal places.
-
-  Args:
-      amount (float): The amount to format
-
-  Returns:
-      str: Formatted currency string
-
-  Example:
-      >>> format_currency(123.456)
-      '£123.46'
-  """
   # +++your code here+++
   return
 
@@ -101,7 +60,7 @@ def test_float(got, expected, tol=1e-6):
 
 
 def main():
-  print("Testing Week 1 Exercises...")
+  print("Testing Week 1 exercises...")
   print()
 
   print("greet_user")
