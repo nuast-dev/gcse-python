@@ -67,6 +67,9 @@ print(type(height))  # <class 'float'>
 
 name = "Alice"
 print(type(name))  # <class 'str'>
+
+is_student = True
+print(type(is_student))  # <class 'bool'>
 ```
 
 ## 3. Type Casting
