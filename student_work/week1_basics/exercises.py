@@ -43,6 +43,18 @@ def format_currency(amount):
   return
 
 
+# E. check_type
+# Return the type name of the given value as a string.
+# Examples:
+#   check_type(42) -> "int"
+#   check_type(3.14) -> "float"
+#   check_type("hello") -> "str"
+#   check_type(True) -> "bool"
+def check_type(value):
+  # +++your code here+++
+  return
+
+
 def test(got, expected):
   if got == expected:
     prefix = ' OK '
@@ -83,6 +95,14 @@ def main():
   test(format_currency(123.456), "£123.46")
   test(format_currency(99.99), "£99.99")
   test(format_currency(5), "£5.00")
+
+  print()
+  print("check_type")
+  test(check_type(42), "int")
+  test(check_type(3.14), "float")
+  test(check_type("hello"), "str")
+  test(check_type(True), "bool")
+  test(check_type(False), "bool")
 
 
 if __name__ == "__main__":
