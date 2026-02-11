@@ -19,6 +19,11 @@ print("Name:", "Alice", "Age:", 16)
 
 # Using sep parameter
 print("Python", "is", "fun", sep="-")
+
+# Using end parameter
+print("Python", end="\n\n")
+print("is", end="\n\n")
+print("fun", end="\n\n")
 ```
 
 ### Input from User
