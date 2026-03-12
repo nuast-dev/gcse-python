@@ -75,6 +75,8 @@ print(numbers[::2])    # [0, 2, 4, 6, 8]
 print(numbers[::-1])   # [9, 8, 7, ..., 0] (reversed)
 ```
 
+### [Click for an Explanation of double colons (start:stop:steps)](help_double_colon_explanation.md)
+
 ## 3. Modifying Lists
 
 ### Changing Elements
