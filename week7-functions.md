@@ -1,4 +1,4 @@
-# Week 6: Functions - Parameters, Return, Decomposition, and Testing
+# Week 7: Functions - Parameters, Return, Decomposition, and Testing
 
 ## Learning Objectives
 - Define and call functions
