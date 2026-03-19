@@ -1,4 +1,4 @@
-# Week 8: Algorithms and Mixed GCSE Level Problems
+# Week 9: Algorithms and Mixed GCSE Level Problems
 
 ## Learning Objectives
 - Apply all previous concepts to solve complex problems
@@ -666,13 +666,14 @@ Create a "School Management System" that combines all concepts:
 
 ## Summary
 
-Week 8 brings together everything from the previous 7 weeks:
+Week 9 brings together everything from the previous 8 weeks:
 - **Week 1-2**: Basic syntax and control flow
 - **Week 3**: Loops for repetition
 - **Week 4**: String processing
 - **Week 5**: Lists for data storage
-- **Week 6**: Functions for organization
-- **Week 7**: Files for persistence
-- **Week 8**: Algorithms to solve complex problems
+- **Week 6**: Dictionaries for labelled data
+- **Week 7**: Functions for organisation
+- **Week 8**: Files for persistence
+- **Week 9**: Algorithms to solve complex problems
 
 You're now ready for GCSE Python programming challenges!
