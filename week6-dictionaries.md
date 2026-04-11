@@ -274,6 +274,8 @@ Write a program that:
 2. Counts how many times each word appears
 3. Displays the results sorted by frequency (highest first)
 
+#### [Help: Use a Function as a key for sorting](sorted-key-functions.md)
+
 ```python
 # Your code here
 ```
