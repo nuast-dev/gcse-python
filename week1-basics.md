@@ -19,6 +19,11 @@ print("Name:", "Alice", "Age:", 16)
 
 # Using sep parameter
 print("Python", "is", "fun", sep="-")
+
+# Using end parameter
+print("Python", end="\n\n")
+print("is", end="\n\n")
+print("fun", end="\n\n")
 ```
 
 ### Input from User
@@ -62,6 +67,9 @@ print(type(height))  # <class 'float'>
 
 name = "Alice"
 print(type(name))  # <class 'str'>
+
+is_student = True
+print(type(is_student))  # <class 'bool'>
 ```
 
 ## 3. Type Casting

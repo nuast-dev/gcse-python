@@ -1,6 +1,6 @@
-# GCSE Python - 8 Week Intensive Course
+# GCSE Python - 9 Week Intensive Course
 
-Fast track 8 week Python course for GCSE students. From zero to hero! 🚀
+Fast track 9 week Python course for GCSE students. From zero to hero! 🚀
 
 ## Course Overview
 
@@ -49,7 +49,15 @@ Create/update, methods, traverse, max/min/avg
 - Statistical operations (sum, max, min, average)
 - 2D lists
 
-#### [Week 6: Functions](week6-functions.md)
+#### [Week 6: Dictionaries](week6-dictionaries.md)
+Create/access, update, methods, traverse, and nested dictionaries
+- Creating and initialising dictionaries
+- Accessing and modifying values with keys
+- Dictionary methods (get, keys, values, items, update, etc.)
+- Traversing dictionaries with loops
+- Nested dictionaries
+
+#### [Week 7: Functions](week7-functions.md)
 Parameters, return, decomposition, and basic tests
 - Defining and calling functions
 - Parameters and return values
@@ -58,7 +66,7 @@ Parameters, return, decomposition, and basic tests
 - Basic testing strategies
 - Scope
 
-#### [Week 7: Files](week7-files.md)
+#### [Week 8: Files](week8-files.md)
 Read/write text, strip, split, file→list processing
 - Opening and closing files
 - Reading and writing text files
@@ -67,7 +75,7 @@ Read/write text, strip, split, file→list processing
 - Error handling
 - CSV-style data
 
-#### [Week 8: Algorithms](week8-algorithms.md)
+#### [Week 9: Algorithms](week9-algorithms.md)
 Mixed GCSE level problems and algorithms
 - Searching algorithms (linear, binary)
 - Sorting algorithms (bubble, selection)
@@ -123,7 +131,7 @@ Each week includes:
 
 This course aligns with GCSE Computer Science programming requirements:
 - Algorithm design and problem-solving
-- Data structures (lists, strings)
+- Data structures (lists, dictionaries, strings)
 - File handling
 - Validation and testing
 - Function decomposition
@@ -146,4 +154,4 @@ This is an educational resource for GCSE students. Content is designed to be:
 
 **Ready to start?** Head to [Week 1: Basics](week1-basics.md) and begin your Python journey!
 
-*From zero to hero in 8 weeks!* 🌟
+*From zero to hero in 9 weeks!* 🌟

@@ -1,4 +1,4 @@
-# Week 7: Files - Read/Write Text, Strip, Split, File→List Processing
+# Week 8: Files - Read/Write Text, Strip, Split, File→List Processing
 
 ## Learning Objectives
 - Open and close files safely
