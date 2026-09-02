@@ -60,7 +60,7 @@ def test(got, expected):
         prefix = ' OK '
     else:
         prefix = '  X '
-    print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
+    print(f"{prefix} got: {got!r} expected: {expected!r}")
 
 
 def test_float(got, expected, tol=1e-6):
@@ -68,7 +68,7 @@ def test_float(got, expected, tol=1e-6):
         prefix = ' OK '
     else:
         prefix = '  X '
-    print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
+    print(f"{prefix} got: {got!r} expected: {expected!r}")
 
 
 def main():
@@ -96,13 +96,13 @@ def main():
     test(format_currency(99.99), "£99.99")
     test(format_currency(5), "£5.00")
 
-  print()
-  print("check_type")
-  test(check_type(42), "int")
-  test(check_type(3.14), "float")
-  test(check_type("hello"), "str")
-  test(check_type(True), "bool")
-  test(check_type(False), "bool")
+    print()
+    print("check_type")
+    test(check_type(42), "int")
+    test(check_type(3.14), "float")
+    test(check_type("hello"), "str")
+    test(check_type(True), "bool")
+    test(check_type(False), "bool")
 
 
 if __name__ == "__main__":

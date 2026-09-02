@@ -80,7 +80,7 @@ def test(got, expected):
         prefix = ' OK '
     else:
         prefix = '  X '
-    print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
+    print(f"{prefix} got: {got!r} expected: {expected!r}")
 
 
 # Helper for float comparisons (so students don’t fail due to tiny rounding issues)
@@ -89,7 +89,7 @@ def test_float(got, expected, tol=1e-6):
         prefix = ' OK '
     else:
         prefix = '  X '
-    print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
+    print(f"{prefix} got: {got!r} expected: {expected!r}")
 
 
 def main():
